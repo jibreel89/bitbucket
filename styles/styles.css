@@ -1,0 +1,455 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    font-family: 'robotomedium';
+}
+/* fonts */
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/roboto-medium-webfont.woff') format('woff2'),
+         url('../fonts/roboto-medium-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.button{
+    cursor: pointer;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.wrapper{
+    width: 85%;
+    margin: 0% auto;
+    padding-top: 1%;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+.middle{
+    display: flex;
+    color: #0052cc;
+    font-size: 20px;
+    padding-right: 0%;
+}
+.middle li{
+    margin-right: 45px;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    color:#0052cc;
+    font-size: 20px;
+}
+.right li{
+    margin-right: 45px;
+    cursor: pointer;
+}
+.right .button{
+    border: 1px solid;
+    padding: 5px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.right .button:hover{
+    background: #0052cc;
+    color: white;
+}
+#spotlight{
+    background: url('http://www.w3.org/2000/svg');
+}
+.main{
+    text-align: center;
+}
+.heading{
+    padding-top: 5%;
+}
+.heading h1{
+    margin-bottom: 20px;
+    font-size: 46px;
+    color: #253858;
+}
+.heading .bit{
+    font-size: 20px;
+    font-weight: bold;
+    color: #42526E;
+}
+.heading .button{
+    background-color: #0052cc;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+.heading li{
+    padding: 3%;
+}
+.bug{
+    width: 68%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+.images{
+    display: flex;
+    padding-top: 12%;
+}
+.image{
+    width: 45%;
+    margin: 0 auto;
+}
+.text{
+    text-align: center;
+    padding-top: 3%;
+}
+.text h1{
+    color: #253858;
+}
+.text p{
+    color: #42526E;
+    margin-top: 15px;
+}
+.coderev{
+    display: flex;
+}
+#review{
+    padding-top: 5%;
+}
+.codecollab{
+    width: 183%;
+}
+.text1{
+    padding-top: 2%;
+}
+.text1 h3{
+    font-weight: 100;
+    font-size: 15px;
+}
+.text1 h1{
+    font-size: 44px;
+    padding: 6% 0;
+    color: #253858;
+}
+.text1 p{
+    font-weight: bolder;
+    font-size: 21px;
+    color: #42526E;
+}
+.text1 li{
+    padding-top: 5%;
+}
+.coderev1{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.continous-delivery{
+    width: 183%;
+}
+.coderev2{
+    display: flex;
+    flex-direction: row;
+}
+.security{
+    width: 183%;
+}
+.paragraph1{
+    text-align: center;
+    padding-top: 15%;
+}
+.paragraph1 h1{
+    font-size: 50px;
+    color: #253858;
+}
+.paragraph1 p{
+    color: #42526E;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.maincontent{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 9%;
+}
+.tutorial{
+    width: 46%;
+}
+.git{
+    width: 25%;
+}
+.tutorial h2{
+    width: 81%;
+    padding-top: 6%;
+    color: #253858;
+}
+.tutorial p{
+    padding: 5% 0;
+    width: 93%;
+    color: #42526E;
+}
+.source{
+    width: 49%;
+}
+.sourcetree{
+    width: 22%;
+}
+.source h2{
+    padding-top: 6%;
+    color: #253858;
+}
+.source p{
+    width: 89%;
+    padding: 5% 0;
+    color: #42526E;
+}
+.paragraph2{
+    text-align: center;
+    padding-top: 17%;
+}
+.paragraph2 h1{
+    font-size: 35px;
+    color: #253858;
+}
+.paragraph2 p{
+    margin-top: 25px;
+    font-size: 20px;
+    color: #42526E;
+}
+.flex{
+    display: flex;
+    padding-top: 4%;
+}
+.int{
+    width: 41%;
+}
+.puzzle{
+    width: 25%;
+}
+.webhooks{
+    width: 30%;
+}
+.text2 h1{
+    padding-top: 23px;
+}
+.text2 p{
+    padding-top: 17px;
+}
+.description{
+    text-align: center;
+    padding-top: 15%;
+}
+.description h1{
+    font-size: 39px;
+    margin-bottom: 45px;
+    color: #253858;
+}
+.customers{
+    width: 67%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+.heading1{
+    text-align: center;
+}
+.heading1 h1{
+    font-size: 33px;
+    margin-bottom: 45px;
+    color: #253858;
+    padding-top: 16%;
+}
+.plan1{
+    display: flex;
+}
+.card{
+    text-align: center;
+    margin: 0 auto;
+}
+.card h2{
+    padding-bottom: 50%;
+}
+.card h1{
+    font-size: 40px;
+}
+.card li{
+    padding: 27% 0;
+}
+.card .button{
+    border: 1px solid blue;
+    padding: 14px 27px;
+    border-radius: 5px;
+    color: #0052cc;
+    cursor: pointer;
+}
+.card .button:hover{
+    color: white;
+    background-color: #0052cc;
+}
+.discounts{
+    display: flex;
+    text-align: center;
+}
+.heading2 li{
+    text-align: center;
+}
+.heading2 li{
+    color: #0052cc;
+    font-size: 19px;
+}
+.heading2{
+    padding-top: 2%;
+    padding-bottom: 9%;
+}
+.cloud{
+    display: flex;
+}
+.demo{
+    background-color: #f4f5f7;;
+    width: 90%;
+    margin: 0 auto;
+}
+.bitcloud{
+    width: 10%;
+    padding: 5%;
+}
+.demo1 h1{
+    padding-top: 7%;
+}
+.demo1 p{
+    padding: 2% 0px;
+    width: 78%;
+}
+.datacenter{
+    display: flex;
+}
+.servercluster{
+    width: 10%;
+    padding: 79px;
+}
+.data h1{
+    padding-top: 8%;
+}
+.data li{
+    margin-top: 14px;
+}
+.second{
+    display: flex;
+}
+.paragraph3{
+    text-align: center;
+    padding-top: 14%;
+}
+.paragraph3 h1{
+    font-size: 40px;
+}
+.paragraph3 li{
+    margin-top: 70px;
+}
+.paragraph3 .button{
+    background-color: #0052cc;
+    color: white;
+    padding: 11px 18px;
+    border-radius: 5px;
+}
+.left1{
+    padding-top: 17%;
+}
+.right1{
+    padding-top: 17%;
+}
+#footer{
+    background-color: #f4f5f7;
+}
+.description1{
+    display: flex;
+    padding-top: 5%;
+}
+.formflex{
+    display: flex;
+}
+.bitbucket{
+    display: flex;
+    flex-direction: column;
+    padding-right: 11%;
+}
+.bitbucket h1{
+    color: #253858;
+    padding-bottom: 10%;
+    font-size: 21px;
+}
+.bitbucket a{
+    color: #42526E;
+    padding-bottom: 3%;
+}
+.form h4{
+    color: #253858;
+    font-size: 23px;
+}
+.form p{
+    color: #42526E;
+}
+.form .formflex{
+    padding-top: 5%;
+}
+.form input{
+    padding: 8px 170px;
+}
+.form li{
+    padding-top: 6px;
+}
+.form .button{
+    border: 1px solid #0052cc;
+    color: #0052cc;
+    padding: 11px 10px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.icon{
+    display: flex;
+    padding-top: 6%;
+}
+.icon p{
+    padding-left: 51%;
+}
+.facebook{
+    width: 6%;
+    padding-left: 5%;
+}
+.twitter{
+    width: 7%;
+    padding-left: 2%;
+}
+.terms{
+    padding-top: 2%;
+}
+.flexlist{
+    display: flex;
+}
+.at{
+    display: flex;
+}
+.at li{
+    padding-right: 3%;
+    color: #42526E;
+}
+.Atlassian{
+    width: 16%;
+}
+.lang{
+    padding-top: 2%;
+}
+@media all and (max-width: 1440px) {}
+@media all and (max-width: 1280px) {}
+@media all and (max-width: 1050px) {}
+@media all and (max-width: 980px) {}
+@media all and (max-width: 768px) {}
+@media all and (max-width: 640px) {}
+@media all and (max-width: 480px) {}
+@media all and (max-width: 360px) {}
